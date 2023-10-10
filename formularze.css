@@ -4,6 +4,12 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 
+.modal-overlay{
+ background: #2539F2!important;
+ -webkit-backdrop-filter: blur(12px)!important; /* For Chrome and Safari */ 
+  backdrop-filter: blur(12px)!important; /* Standard property */
+}
+
 button.btn-flat.datepicker-cancel.waves-effect {
   color: #2539F2!important;
 }
