@@ -111,7 +111,14 @@ select {
     padding:10px !important;
 }
 
-
+textarea {
+    font-family:'Poppins', sans-serif!important;
+    font-size:14px !important;
+    color: #51567e !important;
+    appearance:none !important;
+    padding:20px
+     
+}
 textarea#story {
     height:6rem;
     background-color:#fff;
