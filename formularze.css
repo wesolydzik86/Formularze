@@ -101,6 +101,33 @@ span.date-text {
   font-weight: 200!important;
 }
 
+select, option {
+    font-family:'Poppins', sans-serif!important;
+    color:#51567e!important;    
+}
+
+select {
+    border-radius:10px!important; 
+    padding:10px !important;
+}
+
+
+textarea#story {
+    height:6rem;
+    background-color:#fff;
+    
+}
+
+textarea:focus {
+    border: 1px solid #2539F2!important;
+    
+}
+
+textarea:active {
+    border: 1px solid #2539F2!important;
+    
+}
+
 input.select-dropdown.dropdown-trigger {
   
 }
