@@ -4,6 +4,26 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 
+/*basic reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  /*Image only BG fallback*/
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+	min-height:700px;
+	width:100%;
+	
+}
+
+/*Materialize ovverrides*/
 .modal-overlay{
  background: #2539F2!important;
  -webkit-backdrop-filter: blur(12px)!important; /* For Chrome and Safari */ 
@@ -123,7 +143,7 @@ input#godzina, input#termin {
     height: 1rem!important;
 		text-align:center!important;
 		padding:5px!important;
-		font-family: Poppins, sans-serif!important;
+		font-family: 'Poppins', sans-serif;!important;
 		font-size:16px!important;
 		font-weight:400!important;
 		color:#2539F2!important;
@@ -160,27 +180,6 @@ input#godzina, input#termin {
     border: #2539F2!important;
 }
 
-
-
-
-/*basic reset*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  height: 100%;
-  /*Image only BG fallback*/
-}
-
-body {
-  font-family: Poppins, sans-serif;
-  background-color: #fff;
-	min-height:700px;
-	width:100%;
-	
-}
 
 /*form styles*/
 .msformbody {}
@@ -242,7 +241,7 @@ select{
   margin-bottom: 10px;
   width: 100%;
   box-sizing: border-box;
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   color: #1F32E0;
   font-size: 13px;
 	
@@ -254,7 +253,7 @@ select{
   width: 100px;
   background: #1F32E0;
   font-weight: 500;
-	font-family: Poppins, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size:15px;
   color: white;
   border: 0 none;
