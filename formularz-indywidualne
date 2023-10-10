@@ -1,0 +1,192 @@
+
+  <body>
+    <div class="">
+      <!-- multistep form -->
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYwSe66ehgXcOWsbomRpXPGLVVD4nb0RYXcTwv8I3wm-TI1A/formResponse" method="POST" class="msform">
+          
+        <!-- progressbar -->
+        <ul id="progressbar">
+          <li class="active">Wybierz Miasto</li>
+          <li>Wybierz Termin</li>
+          <li>Oczekiwania</li>
+          <li>Twoje dane</li>
+        </ul>
+        
+        <!-- fieldsets -->
+        <fieldset>
+          <h2 class="fs-title">Wybierz miasto</h2>
+					 <div class="ss-input-group">
+					
+          <h3 class="fs-subtitle">Wybierz miasto, w którym chcesz odbyc zajęcia</h3>
+          <span class="wpcf7-form-control-wrap">
+           
+              <span class="wpcf7-form-control wpcf7-radio">
+                <span class="wpcf7-list-item first">
+                  <label>
+                    <input type="radio" id="Warszawa" name="entry.2055709742" value="Warszawa"  class=" indigo accent-4" />
+                    <span class="wpcf7-list-item-label">Warszawa</span>
+                  </label>
+                </span>
+                <span class="wpcf7-form-control wpcf7-radio">
+                  <span class="wpcf7-list-item last">
+                    <label>
+                      <input type="radio" id="Gdansk" name="entry.2055709742" value="Gdańsk" class="indigo accent-4" />
+                      <span class="wpcf7-list-item-label">Gdańsk</span>
+                    </label>
+                  </span>
+                </span>
+              </span>
+           
+          </span>
+          <br />
+          <br />
+					 </div>
+          <input type="button" name="next" class="next action-button" value="Dalej" />
+        </fieldset>
+        
+        <fieldset>
+          <h2 class="fs-title">Wybierz termin</h2>
+					 <div class="row">
+					 
+					 <div class="ss-input-group col s12">
+					
+          <h3 class="fs-subtitle">Kiedy chesz odbyć zajęcia?</h3>
+          <div class="input-field col s6">
+            <label for="termin">Wybierz datę</label>
+            <input type="text" name="entry.637588805" id="termin" class="datepicker"/>
+						</div>
+						 <div class="input-field col s6">
+						<label for="godzina">Wybierz godzinę</label>
+            <input type="text" name="entry.1767244889" id="godzina" class="timepicker" />
+						</div>
+            <br />
+            <br />
+            <p></p>
+         
+          <h3 class="fs-subtitle top-break">Czas trwania zajęć</h3>
+          
+            <span class="wpcf7-form-control wpcf7-radio">
+              <span class="wpcf7-list-item first">
+                <label>
+                  <input type="radio" id="45min" name="entry.657729273" />
+                  <span class="wpcf7-list-item-label">45 min.</span>
+                </label>
+              </span>
+              <span class="wpcf7-list-item">
+                <label>
+                  <input type="radio" id="60min" name="entry.657729273" />
+                  <span class="wpcf7-list-item-label">60 min.</span>
+                </label>
+              </span>
+              <span class="wpcf7-list-item">
+                <label>
+                  <input type="radio" id="90min" name="entry.657729273" />
+                  <span class="wpcf7-list-item-label">90 min.</span>
+                </label>
+              </span>
+              <span class="wpcf7-list-item last">
+                <label>
+                  <input type="radio" id="120min" name="entry.657729273" />
+                  <span class="wpcf7-list-item-label">120 min.</span>
+                </label>
+              </span>
+            </span>
+						<br />
+          <br />
+					</div></div>
+          
+          <input type="button" name="previous" class="previous action-button" value="Cofnij" />
+          <input type="button" name="next" class="next action-button" value="Dalej" />
+        </fieldset>
+        
+        <fieldset>
+          <h2 class="fs-title">Oczekiwania</h2>
+					  <div class="ss-input-group">
+          <h3 class="fs-subtitle">Ile Osób chcesz zapisać na zajęcia?</h3>
+        
+            <span class="wpcf7-form-control wpcf7-radio">
+              <span class="wpcf7-list-item first">
+                <label>
+                  <input type="radio" id="1os" name="entry.1042992554" />
+                  <span class="wpcf7-list-item-label">1 osoba</span>
+                </label>
+              </span>
+              <span class="wpcf7-list-item">
+                <label>
+                  <input type="radio" id="2os" name="entry.1042992554" />
+                  <span class="wpcf7-list-item-label">2 osoby</span>
+                </label>
+              </span>
+              <span class="wpcf7-list-item">
+                <label>
+                  <input type="radio" id="3os" name="entry.1042992554" />
+                  <span class="wpcf7-list-item-label">3 osoby</span>
+                </label>
+              </span>
+              <span class="wpcf7-list-item last">
+                <label>
+                  <input type="radio" id="4os" name="entry.1042992554" />
+                  <span class="wpcf7-list-item-label">4 osoby</span>
+                </label>
+              </span>
+            </span>
+         
+    
+         
+          <h3 class="fs-subtitle top-break">Czy chcesz zapisać się na zajęcia do konkretnego trenera?</h3>
+        
+            <select id="Trener" name="entry.1365138744" class="col s12">
+              <option value="dowolny">Dowolny trener</option>
+              <option value="trener-1">Trener 1</option>
+              <option value="trener-2">Trener 2</option>
+              <option value="trener-3">Trener 3</option>
+            </select>
+          
+       
+          <h3 class="fs-subtitle top-break">Opisz swoje oczekiwania</h3>
+         
+            <textarea id="story" name="entry.175450994" rows="3"></textarea>
+          </div>
+         
+          <input type="button" name="previous" class="previous action-button" value="Cofnij" />
+          <input type="button" name="next" class="next action-button" value="Dalej" />
+        </fieldset>
+        
+        <fieldset>
+          <h2 class="fs-title">Twoje Dane</h2>
+          <h3 class="fs-subtitle">Płeć</h3>
+          <span class="wpcf7-form-control-wrap">
+            <div class="ss-input-group">
+              <span class="wpcf7-form-control wpcf7-radio">
+                <span class="wpcf7-list-item first">
+                  <label>
+                    <input type="radio" name="entry.188773341" value="Kobieta" checked="checked">
+                    <span class="wpcf7-list-item-label">Kobieta</span>
+                  </label>
+                </span>
+                <span class="wpcf7-list-item last">
+                  <label>
+                    <input type="radio" name="entry.188773341" value="Mężczyzna">
+                    <span class="wpcf7-list-item-label">Mężczyzna</span>
+                  </label>
+                </span>
+              </span>
+            </div>
+          </span>
+          <br />
+          <br />
+          <h3 class="fs-subtitle">Imię i Nazwisko</h3>
+          <input type="text" name="entry.1493748328" />
+          <br />
+          <br />
+          <h3 class="fs-subtitle">Email</h3>
+          <input type="text" name="entry.1707253722" />
+          <br />
+          <br />
+          <input type="button" name="previous" class="previous action-button" value="Cofnij" />
+          <button type="submit" class="submit action-button">Wyślij </button>
+        </fieldset>
+      </form>
+      <!-- jQuery -->
+    </div>
+  </body>
