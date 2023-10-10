@@ -221,7 +221,7 @@ input#godzina, input#termin {
 .msform {
 
   max-width: 820px;
-  margin: 50px auto;
+  margin: 0 auto;
   text-align: center;
   position: relative;
 }
@@ -375,7 +375,7 @@ span.wpcf7-list-item-label {
   display: block;
 
   width: 80%;
-  margin: 30px 10% 10px 10%;
+  margin: 10px 10% 10px 10%;
 
   overflow: hidden;
   background-color: none;
@@ -383,7 +383,7 @@ span.wpcf7-list-item-label {
   /*CSS counters to number the steps*/
   counter-reset: step;
   text-align: center;
-  padding: 30px 2px;
+  padding: 20px 2px;
 
 }
 
