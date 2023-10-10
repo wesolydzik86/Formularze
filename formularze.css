@@ -5,21 +5,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 
 button.btn-flat.datepicker-cancel.waves-effect {
-  color: #2539F2;
+  color: #2539F2!important;
 }
 
 .datepicker-date-display {
-  background-color: #2539F2;
+  background-color: #2539F2!important;
   border-radius: 8px 0px 0px 8px !important;
 }
 
 button.btn-flat.datepicker-done.waves-effect {
-  color: #2539F2;
+  color: #2539F2!important;
 }
 
 .modal-content.datepicker-container {
   border-radius: 10px !important;
-  padding: 5px;
+  padding: 5px!important;
 }
 
 .modal-content {
@@ -27,7 +27,7 @@ button.btn-flat.datepicker-done.waves-effect {
 }
 
 .datepicker-calendar-container {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 
 .datepicker-calendar {
@@ -37,7 +37,7 @@ button.btn-flat.datepicker-done.waves-effect {
 div#modal-30294fd8-5c68-245d-e4e4-c98129993398 {}
 
 .modal {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
 
 span.date-text {}
@@ -47,32 +47,32 @@ span.date-text {}
 }
 
 input.select-dropdown.dropdown-trigger {
-  font-size: 13px;
-  font-weight: 600;
-  color: #5D74A6;
-	width: 75px;
+  font-size: 13px!important;
+  font-weight: 600!important;
+  color: #5D74A6!important;
+	width: 75px!important;
 }
 
 svg {}
 
 button.month-prev svg,
 button.month-next svg {
-  color: #4A4F71;
-  fill: #4A4F71;
+  color: #4A4F71!important;
+  fill: #4A4F71!important;
 }
 
 .datepicker-table abbr {
-  color: #6877a699;
+  color: #6877a699!important;
 }
 
 span.date-text {
-  font-size: 2.0rem;
-  font-weight: 300;
+  font-size: 2.0rem!important;
+  font-weight: 300!important;
 }
 
 .datepicker-date-display span.date-text {
-  font-size: 2.0rem;
-  font-weight: 200;
+  font-size: 2.0rem!important;
+  font-weight: 200!important;
 }
 
 input.select-dropdown.dropdown-trigger {
@@ -83,60 +83,60 @@ button.btn-flat.datepicker-cancel.waves-effect,
 button.btn-flat.timepicker-close.waves-effect
 {
 
-  color: #fff;
-  background-color: #2539f280;
-  border-radius: 20px;
-  margin-right: 15px;
-  float: left;
+  color: #fff!important;
+  background-color: #2539f280!important;
+  border-radius: 20px!important;
+  margin-right: 15px!important;
+  float: left!important;
 }
 
 button.btn-flat.datepicker-done.waves-effect,
 button.btn-flat.timepicker-done.waves-effect 
 {
-  color: #fff;
-  background-color: #2539f2;
-  border-radius: 20px;
+  color: #fff!important;
+  background-color: #2539f2!important;
+  border-radius: 20px!important;
 }
 
 .datepicker-controls .select-wrapper input {
 
-    display:none;
+    display:none!important;
 }
 
 
 
 .input-field.col label {
-    text-align: center;
-    position: relative;
+    text-align: center!important;
+    position: relative!important;
     /* bottom: 0; */
     /* padding: 0; */
     /* margin: 0; */
     /* margin-bottom: -50px; */
 }
 input#godzina, input#termin {
-    height: 1rem;
-		text-align:center;
-		padding:5px;
-		font-family: Poppins, sans-serif;
-		font-size:16px;
-		font-weight:400;
-		color:#2539F2;
-		line-height:30px;
+    height: 1rem!important;
+		text-align:center!important;
+		padding:5px!important;
+		font-family: Poppins, sans-serif!important;
+		font-size:16px!important;
+		font-weight:400!important;
+		color:#2539F2!important;
+		line-height:30px!important;
 }
 
 
 
 .timepicker-tick.active, .timepicker-tick:hover {
-    background-color: #2539f226;
+    background-color: #2539f226!important;
 }
 .modal-content.timepicker-container {
-    padding: 7px;
+    padding: 7px!important;
 }
 
 .timepicker-digital-display {
-    background-color: #2539F2;
-    padding: 8px;
-    border-radius: 8px 0px 0px 8px;
+    background-color: #2539F2!important;
+    padding: 8px!important;
+    border-radius: 8px 0px 0px 8px!important;
 }
 
 
@@ -145,13 +145,13 @@ input#godzina, input#termin {
 .timepicker-canvas-bg { fill: #2539F2 !important; }
 
 .top-break{
-	margin-top:100px;
+	margin-top:100px!important;
 		
 }
 
 [type="radio"]:checked + span:after {
-    background-color: #2539F2;
-    border: #2539F2;
+    background-color: #2539F2!important;
+    border: #2539F2!important;
 }
 
 
