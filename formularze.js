@@ -133,5 +133,7 @@ $(".previous").click(function() {
 });
 
 $(".submit").click(function() {
-  preventDefault();
-})
+    
+    $("form").submit();
+    //event.preventDefault();
+});
