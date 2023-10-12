@@ -11,7 +11,7 @@
 	  
     <div class="">
       <!-- multistep form -->
-      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYwSe66ehgXcOWsbomRpXPGLVVD4nb0RYXcTwv8I3wm-TI1A/formResponse" method="POST" class="msform">
+      <form class="msform" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYwSe66ehgXcOWsbomRpXPGLVVD4nb0RYXcTwv8I3wm-TI1A/formResponse" method="POST" target="hiddenConfirm" onsubmit="submitted=true">
           
         <!-- progressbar -->
         <ul id="progressbar">
@@ -332,10 +332,11 @@
                     // this comes from the custom easing plugin
                     easing: 'easeInOutBack'
                 });
-            });
-
- 
-    </script>
+	    });
+		$(".submit").click(function(event) {
+    event.preventDefault();
+});
+</script>
    
   </body>
 </html>
